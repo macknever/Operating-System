@@ -60,7 +60,6 @@ TestA20:
     cmp word[es:0x7c10],0xb200
     je End
     
-
 SetA20LineDone:
     xor ax,ax
     mov es,ax
